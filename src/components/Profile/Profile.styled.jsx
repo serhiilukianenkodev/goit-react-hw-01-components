@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 export const ProfileClass = styled.div`
-  width: 400px;
+  width: 280px;
+  border: 1px solid black;
 `;
 
 export const Description = styled.div`
-  padding: 20px;
+  padding: 40px;
   align-items: center;
 `;
 
