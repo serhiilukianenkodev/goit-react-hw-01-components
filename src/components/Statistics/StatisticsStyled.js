@@ -5,12 +5,12 @@ export const StatisticSection = styled.section`
   margin: 20px auto;
   text-align: center;
   background-color: white;
-  padding-top: 30px;
+  /* padding-top: 30px; */
 `;
 
 export const Title = styled.h2`
   font-size: 35px;
-  padding-top: 12px;
+  padding-top: 30px;
   text-transform: uppercase;
   margin-bottom: 30px;
 `;
