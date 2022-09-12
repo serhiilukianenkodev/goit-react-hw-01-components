@@ -13,7 +13,7 @@ export const FriendList = ({ friends }) => {
       {friends.map(friend => {
         return (
           <Friend key={friend.id}>
-            <Status status={friend.isOnline}></Status>
+            <Status status={friend.isOnline} />
             <Avatar src={friend.avatar} alt="User avatar" width="48" />
             <Name>{friend.name}</Name>
           </Friend>
