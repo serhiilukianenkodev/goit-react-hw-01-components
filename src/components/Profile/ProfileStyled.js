@@ -3,6 +3,8 @@ import styled from 'styled-components';
 export const ProfileClass = styled.div`
   width: 280px;
   border-radius: 8px;
+  margin: 30px auto;
+  background-color: #e2f9fb;
 `;
 
 export const Description = styled.div`
@@ -14,13 +16,18 @@ export const Description = styled.div`
 export const Avatar = styled.img`
   width: 150px;
   border-radius: 50%;
+  margin-bottom: 12px;
 `;
 
 export const Name = styled.p`
   font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
 `;
 
-export const Tag = styled.p``;
+export const Tag = styled.p`
+  margin-bottom: 12px;
+`;
 
 export const Location = styled.p``;
 
@@ -36,12 +43,17 @@ export const StatsItem = styled.li`
   flex-wrap: wrap;
   border: 1px solid black;
   width: 33.33%;
-  height: 60px;
+  /* height: 60px; */
   padding: 12px;
   align-items: center;
   justify-content: center;
+  background-color: #e8eaf1;
 `;
 
-export const Label = styled.span``;
+export const Label = styled.span`
+  margin-bottom: 6px;
+`;
 
-export const Quantity = styled.span``;
+export const Quantity = styled.span`
+  font-weight: bold;
+`;
